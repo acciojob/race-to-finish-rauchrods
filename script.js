@@ -5,33 +5,32 @@ window.promises = [];
 
 let p1 =  new Promise((resolve, reject) => {
     setTimeout(() => {
-        resolve("hi1");
+        resolve(" ");
     }, Math.floor(Math.random()*5000) + 1000);
         
 });
 
 let p2 =  new Promise((resolve, reject) => {
     setTimeout(() => {
-        resolve("hi2");
+        resolve(" ");
     }, Math.floor(Math.random()*5000) + 1000);
 });
 
 let p3 =  new Promise((resolve, reject) => {
     setTimeout(() => {
-        resolve("hi3");
+        resolve(" ");
     }, Math.floor(Math.random()*5000) + 1000);
 });
 let p4 =  new Promise((resolve, reject) => {
     setTimeout(() => {
-        resolve("hi3");
+        resolve(" ");
     }, Math.floor(Math.random()*5000) + 1000);
 });
 let p5 =  new Promise((resolve, reject) => {
     setTimeout(() => {
-        resolve("hi3");
+        resolve(" ");
     }, Math.floor(Math.random()*5000) + 1000);
 });
-
 window.promises = [];
 promises.push(p1,p2,p3,p4,p5);
 
